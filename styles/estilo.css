@@ -1,0 +1,113 @@
+#contenedor{
+    width: 1200px;
+    height: 600px;
+    background-color: antiquewhite;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+#header{
+    height: 14%;
+    border-radius: 0.5em;
+    background-color: rgb(52, 51, 51);
+    margin:0.5em ;
+}
+
+#nav1 {
+    height: 91%;
+    width: 49%;
+    background-color:  rgb(99, 97, 97);
+    border-radius: 0.5em;
+    margin:0.2em;
+    float: left;
+    text-align: center;
+}
+
+#nav2 {
+    height: 91%;
+    width: 49%;
+    background-color:  rgb(99, 97, 97);
+    border-radius: 0.5em;
+    margin:0.2em;
+    float: right;
+    text-align: center; 
+}
+
+#agrupado {
+    height: 69%;
+    border-radius: 0.1em 0.5em 0.1em 0.5em;
+    background-color: rgb(52, 51, 51);
+    margin:0.5em ;
+}
+
+#contenido {
+    height: 98%;
+    width: 70%;
+    background-color:  rgb(99, 97, 97);
+    border-radius: 0.5em;
+    margin:0.2em 0.1em 0.2em 0.2em;
+    float: left;
+    text-align: center;
+}
+
+#cont {
+    height: 98%;
+    width: 29%;
+    background-color:  rgb(99, 97, 97);
+    border-radius: 0.5em;
+    margin:0.2em 0.1em 0.2em 0.1em;
+    float: left;
+    text-align: center;
+}
+
+#cont1 {
+    height: 69%;
+    background-color: rgb(92, 70, 70);
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+}
+
+#cont2 {
+    height: 29%;
+    background-color: rgb(92, 70, 70);
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+}
+
+#footer {
+    height: 13%;
+    background-color:  rgb(99, 97, 97);
+    margin:0.1em 0.5em 0.1em 0.5em;
+    border-radius: 0.5em;
+}
+
+#footer1{
+    height: 97%;
+    width: 33%;
+    background-color: rgb(92, 70, 70);
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+    float: left;
+}
+#footer2{
+    height: 97%;
+    width: 33%;
+    background-color: rgb(92, 70, 70);
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+    float: left;
+}
+#footer3{
+    height: 97%;
+    width: 33%;
+    background-color: rgb(92, 70, 70);
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+    float: left;
+}
+
+
