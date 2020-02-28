@@ -1,0 +1,78 @@
+.header1 {
+    grid-area: h1;
+    background-color: blue;
+
+}
+
+.header2 {
+    grid-area: h2;
+    background-color: blue;
+}
+
+.contenido1 {
+    grid-area: c1;
+    background-color: rgb(173, 173, 247);
+}
+
+.contenido2 {
+    grid-area: c2;
+    background-color: rgb(173, 173, 247);
+}
+
+.contenido3 {
+    grid-area: c3;
+    background-color: rgb(173, 173, 247);
+}
+
+.futer1 {
+    grid-area: f1;
+    background-color: rgb(117, 117, 245);
+}
+
+.futer2 {
+    grid-area: f2;
+    background-color: rgb(117, 117, 245);
+}
+
+.futer3 {
+    grid-area: f3;
+    background-color: rgb(117, 117, 245);
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-gap: 1px;
+    text-align: center;
+
+    grid-template-areas: 
+                " h1  h1 h1 h2 h2 h2"
+                " c1  c1 c1 c1 c2 c2"
+                " c1  c1 c1 c1 c3 c3"
+                " f1  f1 f2 f2 f3 f3"
+
+        ;
+}
+
+@media all and (max-width: 800px){
+    .grid
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1px;
+        text-align: center;
+
+        grid-template-areas: 
+                    " h1 h2"
+                    " c1 c1"
+                    " c2 c2"
+                    " c3 c3"
+                    " f1 f1"
+                    " f2 f2"
+                    " f3 f3"
+
+            ;
+    }   
+}
