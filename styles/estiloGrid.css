@@ -1,9 +1,14 @@
 .header1 {
     grid-area: h1;
     background-color: blue;
+    font-family: cursive;
+    font-size: 50px;
 
 }
 
+.menu{
+    display: inline-flex;
+}
 .header2 {
     grid-area: h2;
     background-color: blue;
